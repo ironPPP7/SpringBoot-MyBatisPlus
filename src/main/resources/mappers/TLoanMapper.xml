@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.TLoanMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.demo.entity.TLoan">
+        <id column="id" property="id" />
+        <result column="user_id" property="userId" />
+        <result column="cust_id" property="custId" />
+        <result column="sub_acct_id" property="subAcctId" />
+        <result column="loan_no" property="loanNo" />
+        <result column="show_status" property="showStatus" />
+        <result column="loan_status" property="loanStatus" />
+        <result column="lock_flag" property="lockFlag" />
+        <result column="fund_no" property="fundNo" />
+        <result column="product_id" property="productId" />
+        <result column="apply_amt" property="applyAmt" />
+        <result column="apply_phase" property="applyPhase" />
+        <result column="apply_phase_unit" property="applyPhaseUnit" />
+        <result column="apply_time" property="applyTime" />
+        <result column="apply_purpose" property="applyPurpose" />
+        <result column="lender_method" property="lenderMethod" />
+        <result column="lender_time" property="lenderTime" />
+        <result column="lender_amt" property="lenderAmt" />
+        <result column="lender_card_id" property="lenderCardId" />
+        <result column="repay_card_id" property="repayCardId" />
+        <result column="repay_way" property="repayWay" />
+        <result column="loan_start_date" property="loanStartDate" />
+        <result column="loan_end_date" property="loanEndDate" />
+        <result column="repay_start_date" property="repayStartDate" />
+        <result column="repay_end_date" property="repayEndDate" />
+        <result column="first_repay_amt" property="firstRepayAmt" />
+        <result column="first_repay_date" property="firstRepayDate" />
+        <result column="mth_repay_date" property="mthRepayDate" />
+        <result column="mth_repay_amt" property="mthRepayAmt" />
+        <result column="interest_calc_date" property="interestCalcDate" />
+        <result column="settle_time" property="settleTime" />
+        <result column="settle_amt" property="settleAmt" />
+        <result column="version" property="version" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="remark" property="remark" />
+    </resultMap>
+
+</mapper>
